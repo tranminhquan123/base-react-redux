@@ -7,7 +7,7 @@ class  MyComponent extends React.Component {
     
     state = {
         name: 'tran minh quan',
-        address: 'viet nam, thanh pho thu duc',
+        address: '63/11/3a',
         age: 20
     };
 
@@ -16,7 +16,7 @@ class  MyComponent extends React.Component {
         return (
 
             <div>
-
+              
                 My name is {this.state.name} and I'm from {this.state.address}
             </div>
         );
