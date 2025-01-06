@@ -1,16 +1,16 @@
-import logo from './logo.svg';
-import './App.scss';
-import { useDispatch, useSelector } from 'react-redux';
-import { increaseCounter, decreaseCounter } from './redux/action/counterAction';
-import MyComponent from './components/MyComponent';
-import React from 'react';
+import logo from "./logo.svg";
+import "./App.scss";
+import { useDispatch, useSelector } from "react-redux";
+import { increaseCounter, decreaseCounter } from "./redux/action/counterAction";
+import MyComponent from "./components/MyComponent";
+import React from "react";
 
 class App extends React.Component {
   render() {
-    return(
-      <div>
-        Hello World
-        <MyComponent/>
+    return (
+      <div className='app-container'>
+        Hello World!!!
+        <MyComponent />
       </div>
     );
   }
@@ -21,7 +21,7 @@ class App extends React.Component {
 //   const dispatch = useDispatch();
 
 //   return (
-    
+
 //     <div className="App">
 //       <header className="App-header">
 //         <img src={logo} className="App-logo" alt="logo" />
@@ -35,6 +35,5 @@ class App extends React.Component {
 //     </div>
 //   );
 // }
-
 
 export default App;
